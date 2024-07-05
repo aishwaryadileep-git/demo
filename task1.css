@@ -1,0 +1,237 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #472a2a;
+    color: #333;
+}
+
+nav{
+    background-color: transparent;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    margin: 15px;
+    color: rgb(32, 69, 89);
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav ul li a:hover{
+    text-shadow: 2px 4px 6px black;
+    color: rgb(17, 17, 28);
+}
+
+header {
+    background: #162128;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 10px 0 0;
+}
+
+#home{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#home::before{
+    content: "";
+    background-image: url(https://cdn.britannica.com/48/222648-050-F4D0A2D8/President-of-India-A-P-J-Abdul-Kalam-2007.jpg);
+    height: 100%;
+    background-size: cover;
+}
+
+.bio{
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: rgb(161, 111, 111);
+    box-shadow: 0 0 10px rgba(34, 21, 21, 0.1);
+}
+
+.bio img {
+    width: 200px;
+    
+}
+
+.bio p {
+    overflow: hidden;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 20px 0;
+    padding: 10px;
+    border-left: 10px solid #dee7ec;
+    background: #d2caca;
+}
+
+.career{
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: rgb(156, 80, 120);
+    box-shadow: 0 0 10px rgba(34, 21, 21, 0.1);
+} 
+.quotes{
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: rgb(225, 217, 217);
+    box-shadow: 0 0 10px rgba(34, 21, 21, 0.1);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.book-list {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.book-list h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.book-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.book-list .book {
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+
+}
+
+.book-list .book:hover {
+    background-color: #f9f9f9;
+    width: 400px;
+}
+
+.book-list .book h2 {
+    margin: 0 0 10px;
+    color: #555;
+}
+
+.book-list .book p {
+    margin: 5px 0;
+    color: #777;
+}
+.book img{
+    width: 200px;
+}
+.row{
+    background-color: rgb(227, 156, 156);
+    width: 100%;
+    height: 550px;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.col{
+    background-color: rgb(165, 86, 110);
+    width: 100%;
+    height: 550px;
+    box-shadow: rgb(111, 12, 12);
+    margin: 10px;
+    
+}
+button {
+    background-color: #4CAF50; 
+    border: none; 
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer;
+    border-radius: 12px; 
+  }
+  button:hover {
+    background-color: #45a049; 
+  }
+  button:focus {
+    outline: none; 
+    box-shadow: 0 0 5px #4CAF50; 
+  }
+  @media screen ,(min-width:400px)and(max-width:600px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    header{
+        width: 600px;
+        background-color: bisque;
+        color: darkcyan;
+        padding: 0;
+        text-align: justify;
+    }
+    nav{
+        width: 600px;
+        background-color: coral;
+    }
+    .row{
+        background-color: darkgray;
+        width: 600px;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+    }
+    .main{
+        width:600px;
+    }
+    .col-3{
+        height: 500px;
+        width: 300px;
+        border: 3px solid red;
+        margin: 10px;
+    }
+}
